@@ -1,0 +1,43 @@
+.single-funfact {
+    display: flex;
+    .funfact-icon {
+        margin-right: 34px;
+        i {
+            font-size: 36px;
+            height: 74px;
+            line-height: 74px;
+            width: 74px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: center;
+        }
+    }
+    .funfact-content {
+        h3 {
+            color:#535353;
+            font-family: $lato;
+            font-size: 42px;
+            font-weight: 700;
+            line-height: 31px;
+            margin: 0 0 17px;
+            span {
+                color:#535353;
+            }
+        }
+        h4 {
+            color:#666666;
+            font-size: 22px;
+            font-weight: 700;
+            margin-left: 0;
+            text-transform: uppercase;
+        }
+    }
+    &:hover {
+        .funfact-icon {
+            i {
+                background-color: $theme-color;
+                color: #fff;
+            }
+        }
+    }
+}

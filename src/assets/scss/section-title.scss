@@ -1,0 +1,29 @@
+.section-title {
+    position: relative;
+    z-index: 9;
+    h2 {
+        color: #535353;
+        font-size: 36px;
+        line-height: 30px;
+        margin-bottom: 17px;
+        text-transform: uppercase;
+        span {
+            font-weight: bold;
+        }
+    }
+    p {
+        margin: 0 auto;
+        width: 54%;
+    }
+    &.section-title-white {
+        h2 {
+            color: #fff;
+            span {
+                color: #fff;
+            }
+        }
+        p {
+            color: #fff;
+        }
+    }
+}

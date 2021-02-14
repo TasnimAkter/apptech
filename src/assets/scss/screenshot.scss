@@ -1,0 +1,41 @@
+.screenshot-slider-wrap {
+    .slick-list {
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 46px 0 !important;
+        .single-screenshot {
+            padding-left: 15px;
+            padding-right: 15px;
+            a {
+                display: block;
+                position: relative;
+                &::before {
+                    background-color: #000;
+                    bottom: 0;
+                    content: "";
+                    left: 0;
+                    opacity: 0.5;
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    z-index: 9;
+                    transition: all .3s ease 0s;
+                }
+                img {
+                    width: 100%;
+                }
+            }
+        }
+        .slick-current {
+            .single-screenshot {
+                a {
+                    transform: scaleY(1.124);
+                    box-shadow: 0 0 12px rgba(0, 0, 0, 0.35);
+                    &::before {
+                        opacity: 0;
+                    }
+                }
+            }
+        }
+    }
+}

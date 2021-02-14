@@ -1,0 +1,55 @@
+.download-wrap {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 9;
+    .single-download {
+        margin: 0 21px;
+        a {
+            display: flex;
+            align-items: center;
+            line-height: 1;
+            background-color: #fff;
+            border: 1px solid transparent;
+            padding: 25px 37px;
+            border-radius: 5px;
+            i {
+                font-size: 35px;
+                color: #666;
+                transition: all .3s ease 0s;
+            }
+            h4 {
+                font-size: 26px;
+                color: #666;
+                margin: 0 0 0 16px;
+                transition: all .3s ease 0s;
+            }
+        }
+        &:hover {
+            a {
+                background-color: transparent;
+                border: 1px solid #fff;
+                i {
+                    color: #fff;
+                }
+                h4 {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+.download-area {
+    position: relative;
+    &:before {
+        content: "";
+        height: 100%;
+        left: 0;
+        opacity: 0.8;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 2;
+        background: #000000 none repeat scroll 0 0;
+    }
+}

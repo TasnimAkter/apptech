@@ -1,0 +1,42 @@
+.about-content {
+    h2 {
+        color: #535353;
+        font-size: 36px;
+        font-weight: normal;
+        margin-bottom: 13px;
+        text-transform: uppercase;
+        line-height: 30px;
+        span {
+            font-weight: bold;;
+        }
+    }
+    h3 {
+        color: #666666;
+        font-size: 28px;
+        font-weight: 600;
+        margin-bottom: 24px;
+    }
+    p {
+        &.about-pb {
+            padding-right: 36px;
+        }
+    }
+    .about-icon {
+        display: block;
+        margin-top: 39px;
+        a {
+            color: #666666;
+            font-size: 22px;
+            line-height: 0;
+            margin-right: 30px;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+.about-img {
+	padding-left: 57px;
+}
+

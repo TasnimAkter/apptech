@@ -1,0 +1,55 @@
+.newsletter-area {
+    position: relative;
+    &:before {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        content: "";
+        height: 100%;
+        width: 100%;
+        opacity: 0.8;
+        background: #000000 none repeat scroll 0 0;
+    }
+    .newsletter-content {
+        form {
+            position: relative;
+            input {
+                background-color: rgba(0, 0, 0, 0);
+                border-color: #ffffff;
+                border-style: solid;
+                border-width: 0 0 1px;
+                color: #ffffff;
+                font-family: $lato;
+                font-size: 14px;
+                padding: 0 68px 30px 20px;
+                width: 100%;
+            }
+            button {
+                background-color: #ffffff;
+                border: medium none;
+                border-radius: 100%;
+                font-size: 24px;
+                font-weight: 700;
+                height: 45px;
+                line-height: 45px;
+                padding: 0;
+                position: absolute;
+                right: 18px;
+                text-transform: uppercase;
+                top: -11px;
+                width: 45px;
+                i {
+                    color: #1879fd;
+                    transition: all .3s ease 0s;
+                }
+                &:hover {
+                    i {
+                        color: #666;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+.video-area {
+    position: relative;
+    &:before {
+        background-color: #000;
+        bottom: 0;
+        content: "";
+        left: 0;
+        opacity: 0.5;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 2;
+    }
+    .video-popup {
+        position: relative;
+        z-index: 9;
+        border: none;
+        padding: 0;
+        border: 5px solid#ffffff;
+        border-radius: 50px;
+        color:#ffffff;
+        display: inline-block;
+        height: 60px;
+        line-height: 64px;
+        margin: 0 auto;
+        text-align: center;
+        width: 60px;
+        transition: all .3s ease 0s;
+        background-color: transparent;
+        i {
+            font-size: 30px;
+        }
+        &:hover {
+            border: 5px solid #1879Fd;
+            color: #1879Fd;
+        }
+    }
+}

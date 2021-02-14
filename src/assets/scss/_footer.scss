@@ -1,0 +1,40 @@
+.footer-content {
+    .footer-logo {
+        a {
+            display: block;
+        }
+    }
+    .footer-social-icon {
+        margin: 30px 0 25px;
+        a {
+            border: 1px solid #F3F3F3;
+            border-radius: 10px;
+            display: inline-block;
+            font-size: 25px;
+            height: 40px;
+            line-height: 40px;
+            margin-right: 20px;
+            width: 40px;
+            transition: all 0.3s ease 0s;
+            color: #666;
+            &:hover {
+                border: 1px solid #1879Fd;
+                box-shadow: 0 0 12px rgba(0, 0, 0, .35);
+                background-color: #1879Fd;
+                transition: all 0.3s ease 0s;
+                color: #fff;
+            }
+        }
+    }
+    .copyright {
+        p {
+            font-size: 14px;;
+            a {
+                color: #7a7a7a;
+                &:hover {
+                    color: #1879Fd;
+                }
+            }
+        }
+    }
+}

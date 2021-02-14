@@ -1,0 +1,27 @@
+.single-service {
+    .single-item-icon {
+        i {
+            background-color: rgba(0, 0, 0, 0);
+            border-radius: 6px;
+            color: #666666;
+            font-size: 80px;
+            transition: all 0.3s ease 0s;
+            width: 100px;
+            height: 100px;
+            line-height: 100px;
+        }
+    }
+    h3 {
+        color: #666666;
+        font-size: 28px;
+        font-weight: 600;
+        padding: 8px 0 14px;
+    }
+    &:hover i {
+        background-color: #1879fd;
+        box-shadow: 0 0 12px rgba(0, 0, 0, 0.35);
+        color: #ffffff;
+        font-size: 50px;
+        transform: translateY(-17px);
+    }
+}
